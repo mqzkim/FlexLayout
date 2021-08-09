@@ -13,8 +13,6 @@
 // Created by Luc Dion on 2017-07-17.
 
 import UIKit
-
-#if SWIFT_PACKAGE
 import FlexLayoutYoga
 
 extension YGFlexDirection {
@@ -70,7 +68,6 @@ extension YGUnit {
     static let percent = YGUnitPercent
     static let point = YGUnitPoint
 }
-#endif
 
 extension Flex.Direction {
     var yogaValue: YGFlexDirection {

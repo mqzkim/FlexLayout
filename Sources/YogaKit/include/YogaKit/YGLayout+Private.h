@@ -6,11 +6,7 @@
  */
 
 #import "YGLayout.h"
-#if SWIFT_PACKAGE
 #import <yoga/Yoga.h>
-#else
-#import "Yoga.h"
-#endif
 
 @interface YGLayout ()
 
